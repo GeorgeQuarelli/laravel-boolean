@@ -84,5 +84,6 @@
 {{-- inizio footer --}}
     @include('partials.footer')
 {{-- fine footer --}}
+    <script src="{{('js/app.js')}}" charset="utf-8"></script>
     </body>
 </html>
