@@ -14,7 +14,14 @@
 
 {{-- main --}}
 <main>
-    @include('partials.section1')
+    <section class="container">
+        @include('partials.section1')
+
+    </section>
+    <section id="section2">
+        @include('partials.section2')
+    </section>
+
 </main>
 
 {{-- fine main --}}

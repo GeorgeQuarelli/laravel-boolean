@@ -1,4 +1,5 @@
-<section class="container">
+
+    <div id="section1">
 
         <div class="main_left">
             <h3>DIVENTA</h3>
@@ -14,4 +15,4 @@
             <img src="{{asset ('img/pc-black-gif.gif')}}" alt="pc_code">
         </div>
 
-</section>
+    </div>

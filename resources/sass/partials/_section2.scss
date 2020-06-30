@@ -1,0 +1,14 @@
+@import 'partials/_color';
+
+#section2 {
+    background-color: $blue;
+    height: 200px;
+}
+
+.statics {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

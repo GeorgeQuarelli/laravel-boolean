@@ -350,11 +350,8 @@ a {
 }
 
 .container {
-  padding-top: 90px;
   width: 70%;
   margin: auto;
-  display: flex;
-  flex-direction: row;
 }
 
 .container_header {
@@ -362,6 +359,7 @@ a {
   flex-direction: row;
   margin-bottom: 10px;
   width: 100%;
+  padding-bottom: 90px;
 }
 .container_header .header_left {
   margin-top: 15px;
@@ -412,6 +410,11 @@ a {
   text-decoration: none;
 }
 
+#section1 {
+  display: flex;
+  flex-direction: row;
+}
+
 .main_left {
   width: 55%;
 }
@@ -446,4 +449,17 @@ a {
 .main_right img {
   padding-top: 30px;
   height: 70%;
+}
+
+#section2 {
+  background-color: #153b5b;
+  height: 200px;
+}
+
+.statics {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
