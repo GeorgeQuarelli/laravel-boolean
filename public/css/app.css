@@ -350,16 +350,17 @@ a {
 }
 
 .container {
-  width: 60%;
+  padding-top: 90px;
+  width: 70%;
   margin: auto;
+  display: flex;
+  flex-direction: row;
 }
 
 .container_header {
   display: flex;
   flex-direction: row;
   margin-bottom: 10px;
-  position: fixed;
-  overflow: hidden;
   width: 100%;
 }
 .container_header .header_left {
@@ -409,4 +410,40 @@ a {
 .container_header .button button a {
   color: white;
   text-decoration: none;
+}
+
+.main_left {
+  width: 55%;
+}
+.main_left h3 {
+  color: #153b5b;
+  font-size: 50px;
+  font-weight: lighter;
+}
+.main_left h2 {
+  color: #153b5b;
+  font-size: 50px;
+}
+.main_left p {
+  padding-top: 30px;
+  font-size: 22px;
+  color: #153b5b;
+}
+.main_left ul {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.main_left ul li {
+  font-weight: lighter;
+  font-size: 20px;
+  color: #153b5b;
+  line-height: 30px;
+}
+
+.main_right {
+  width: 45%;
+}
+.main_right img {
+  padding-top: 30px;
+  height: 70%;
 }

@@ -1,11 +1,9 @@
-$colore_bottone: limegreen;
+@import 'partials/_color';
 
 .container_header {
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
-    position: fixed;
-    overflow: hidden;
     width: 100%;
 
     .header_left {
