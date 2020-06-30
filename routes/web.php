@@ -14,5 +14,25 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+
+Route::get('/corso', function () {
+    return view('corso');
+});
+
+Route::get('/dopo', function () {
+    return view('dopo');
+});
+
+Route::get('/lezione', function () {
+    return view('lezione');
+});
+
+Route::get('/assumi', function () {
+    return view('assumi');
+});
+
+Route::get('/candidati', function () {
+    return view('candidati');
 });
