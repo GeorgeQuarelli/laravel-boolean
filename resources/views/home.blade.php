@@ -30,5 +30,13 @@
         </header>
 {{-- fine menu --}}
 
+{{-- main --}}
+<main>
+    <div class="container">
+
+
+    </div>
+</main>
+{{-- fine main --}}
     </body>
 </html>
