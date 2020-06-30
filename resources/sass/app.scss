@@ -1,3 +1,5 @@
+$colore_bottone: limegreen;
+
 * {
     padding: 0;
     margin: 0;
@@ -37,11 +39,9 @@
 
                 &:hover {
                     padding-bottom: 10px;
-                    border-bottom: 2px solid limegreen;
+                    border-bottom: 2px solid $colore_bottone;
                 }
             }
-
-
         }
     }
 
@@ -53,7 +53,7 @@
             padding-right: 20px;
             padding-top: 10px;
             padding-bottom: 10px;
-            background-color: limegreen;
+            background-color: $colore_bottone;
             border-radius: 3px;
             border: none;
 
