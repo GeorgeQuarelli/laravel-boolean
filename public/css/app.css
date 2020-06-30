@@ -384,9 +384,9 @@ a {
   float: left;
 }
 .container_header .header_right li a {
-  font-size: 14px;
+  font-size: 13px;
   text-decoration: none;
-  color: black;
+  color: #153b5b;
 }
 .container_header .header_right li a:hover {
   padding-bottom: 10px;
