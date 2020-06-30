@@ -5,7 +5,7 @@
             <h2>98%</h2>
             <p>La percentuale dei nostri <br> studenti che ora lavora come <br> web developer, oltre la metà a <br> tempo indeterminato.</p>
         </div>
-        <div class="box1">
+        <div class="box2">
             <h2>€ 23.000</h2>
             <p>Lo stipendio medio lordo di <br> partenza degli studenti assunti <br> dalle nostre aziende partner.</p>
         </div>

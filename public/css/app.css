@@ -453,7 +453,6 @@ a {
 
 #section2 {
   background-color: #153b5b;
-  height: 200px;
 }
 
 .statics {
@@ -462,4 +461,29 @@ a {
   flex-direction: row;
   padding-top: 30px;
   padding-bottom: 30px;
+  text-align: center;
+}
+
+.box1 {
+  width: 30%;
+}
+.box1 h2 {
+  font-size: 50px;
+  font-weight: normal;
+  padding-bottom: 13px;
+}
+.box1 p {
+  line-height: 25px;
+}
+
+.box2 {
+  width: 40%;
+}
+.box2 h2 {
+  font-size: 50px;
+  font-weight: normal;
+  padding-bottom: 13px;
+}
+.box2 p {
+  line-height: 25px;
 }

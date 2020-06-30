@@ -2,7 +2,6 @@
 
 #section2 {
     background-color: $blue;
-    height: 200px;
 }
 
 .statics {
@@ -11,4 +10,27 @@
     flex-direction: row;
     padding-top: 30px;
     padding-bottom: 30px;
+    text-align: center;
+}
+.box1 {
+    width: 30%;
+    h2 {
+        font-size: 50px;
+        font-weight: normal;
+        padding-bottom: 13px;
+    }
+    p {
+        line-height: 25px;
+    }
+}
+.box2 {
+    width: 40%;
+    h2 {
+        font-size: 50px;
+        font-weight: normal;
+        padding-bottom: 13px;
+    }
+    p {
+        line-height: 25px;
+    }
 }
