@@ -563,3 +563,17 @@ a {
 .footer_right a:hover {
   text-decoration: underline;
 }
+
+.loghi_social {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.adress {
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 30px;
+}

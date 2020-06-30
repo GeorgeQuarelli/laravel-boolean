@@ -18,10 +18,13 @@
             </div>
             <div class="footer_2">
                 <div class="loghi_social">
-
+                    <img src="{{asset ('img/instangram.png')}}" alt="instangram">
+                    <img src="{{asset ('img/facebook.png')}}" alt="facebook">
+                    <img src="{{asset ('img/linkedin.png')}}" alt="linkedin">
+                    <img src="{{asset ('img/youtube.png')}}" alt="youtube">
                 </div>
                 <div class="adress">
-
+                    <p>Boolean SRL - Piazzale Giovanni dalle Bande Nere, 9 - 20146, Milano - P.IVA: 10214930967</p>
                 </div>
             </div>
 
