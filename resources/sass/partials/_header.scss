@@ -40,6 +40,11 @@
                 }
             }
         }
+        .active {
+            padding-left: 1px;
+            padding-bottom: 9px;
+            border-bottom: 2px solid $colore_bottone;
+        }
     }
 
     .button {

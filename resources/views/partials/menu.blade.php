@@ -5,7 +5,7 @@
         </div>
         <div class="header_right">
             <ul>
-                <li> <a href="{{ route('homepage') }}"> HOME </a> </li>
+                <li class= "{{ Request::route()->getName() == 'homepage' ? 'active' : ''}}"> <a href="{{ route('homepage') }}"> HOME </a> </li>
                 <li> <a href="#"> CORSO </a> </li>
                 <li> <a href="#"> DOPO IL CORSO </a> </li>
                 <li> <a href="#"> LEZIONE GRATUITA </a> </li>
